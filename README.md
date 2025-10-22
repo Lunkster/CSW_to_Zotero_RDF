@@ -1,5 +1,7 @@
 # CSW_to_Zotero_RDF
-To get metadata from geodata catalogues such as the Swedish Lantmäteriet and Länsstyrelser and import them to Zotero is a bit of a hassle. This script can help you with that.  
+To get metadata from geodata catalogues such as the Swedish Lantmäteriet (https://www.geodata.se/geodataportalen/srv/swe/catalog.search#/home) and Länsstyrelser (https://ext-geodatakatalog.lansstyrelsen.se/GeodataKatalogen/srv/swe/catalog.search#/home) and import them to Zotero is a bit of a hassle. This script can help you with that.  
+It might work on other catalogues with the same format and csw structure, that is the Swedish metadata standard and TC211 (https://www.isotc211.org/2005/gmd/)  
+
 You'll need lxml!
 
 ```bash
@@ -17,7 +19,7 @@ It will be saved as:
 *author:* Producer  
 *title:* Geodata name  
 *date:* last date of produced or revised  
-*tags:* GIS, geodata and possibly some other från the csw  
+*tags:* GIS, geodata and possibly some other from the csw URL 
 *abstract:* Summary including geographic extent  
 *identifier:* metadata URL  
 *rights:* legal constraints
