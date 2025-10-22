@@ -22,3 +22,6 @@ It will be saved as:
 *identifier:* metadata URL  
 *rights:* legal constraints
 
+If you use the file for Jupyter, the 4 blocks have to be run in order and the results will be save in the same folder as the spript.
+Only one URL at a time can be run.
+Jupyter was used for testing mostly
